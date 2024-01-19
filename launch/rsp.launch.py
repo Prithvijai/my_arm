@@ -20,7 +20,7 @@ def generate_launch_description():
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory('cycloidal_arm'))
-    xacro_file = os.path.join(pkg_path,'urdf','cycloidal_arm.urdf.xacro')
+    xacro_file = os.path.join(pkg_path,'urdf','cycloidal_arm.xacro')
     robot_description_config = xacro.process_file(xacro_file).toxml()
     #robot_description_config = Command(['xacro ', xacro_file, ' use_ros2_control:=', use_ros2_control, ' sim_mode:=', use_sim_time])
 
@@ -47,9 +47,11 @@ def generate_launch_description():
 
         node_robot_state_publisher,
         
+        
+        
         Node(
-                package="joint_state_publisher",
-                executable="joint_state_publisher",
-                name="joint_state_publisher",
-                )
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            output='screen'
+        )
     ])

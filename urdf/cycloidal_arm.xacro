@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<robot name="cycloidal_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find cycloidal_arm)/urdf/materials.xacro" />
+<xacro:include filename="$(find cycloidal_arm)/urdf/cycloidal_arm.trans" />
+<xacro:include filename="$(find cycloidal_arm)/urdf/cycloidal_arm.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.025926959194961165 -0.08990790293702146 0.09618777453207271" rpy="0 0 0"/>
+    <mass value="1.1434563677530065"/>
+    <inertia ixx="0.002559" iyy="0.003586" izz="0.005736" ixy="-0.0" iyz="0.0" ixz="-5.2e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_1_1">
+  <inertial>
+    <origin xyz="-1.221975072900061e-07 4.0482276786324434e-07 0.03284824867605933" rpy="0 0 0"/>
+    <mass value="0.6922210189689346"/>
+    <inertia ixx="0.00133" iyy="0.001397" izz="0.001299" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.014677 0.089905 -0.105228" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.014677 0.089905 -0.105228" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_2_1">
+  <inertial>
+    <origin xyz="-0.04000012219750755 -1.5653940690640855e-05 0.094711807463989" rpy="0 0 0"/>
+    <mass value="0.7128365952218098"/>
+    <inertia ixx="0.008572" iyy="0.008566" izz="0.000471" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.051825 0.089905 -0.220408" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.051825 0.089905 -0.220408" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_3_1">
+  <inertial>
+    <origin xyz="-0.03999991681733949 -3.703954834705092e-06 0.036295759444912146" rpy="0 0 0"/>
+    <mass value="0.5220823279917146"/>
+    <inertia ixx="0.001597" iyy="0.001522" izz="0.000285" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.049015 0.089905 -0.521371" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.049015 0.089905 -0.521371" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_4_1">
+  <inertial>
+    <origin xyz="8.352553543256036e-08 4.0463648962041354e-07 0.024133502609766988" rpy="0 0 0"/>
+    <mass value="0.07124123876912478"/>
+    <inertia ixx="5e-05" iyy="0.000214" izz="0.000193" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.009015 0.089905 -0.686334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.009015 0.089905 -0.686334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_5_1">
+  <inertial>
+    <origin xyz="-0.05999991647445612 4.046365043586242e-07 -1.136179827998518e-07" rpy="0 0 0"/>
+    <mass value="0.16139766351321969"/>
+    <inertia ixx="8e-05" iyy="0.000145" izz="0.000214" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.069015 0.089905 -0.736334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.069015 0.089905 -0.736334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_1">
+  <inertial>
+    <origin xyz="8.352554386331645e-08 4.046365043586242e-07 0.009999886379803535" rpy="0 0 0"/>
+    <mass value="0.301"/>
+    <inertia ixx="7.3e-05" iyy="7.3e-05" izz="0.000125" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.009015 0.089905 -0.746334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.009015 0.089905 -0.746334" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://cycloidal_arm/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="0.014677 -0.089905 0.105228" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link_1_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+</joint>
+
+<joint name="Revolute 2" type="continuous">
+  <origin xyz="0.037148 0.0 0.11518" rpy="0 0 0"/>
+  <parent link="link_1_1"/>
+  <child link="link_2_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="-0.00281 0.0 0.300963" rpy="0 0 0"/>
+  <parent link="link_2_1"/>
+  <child link="link_3_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 4" type="continuous">
+  <origin xyz="-0.04 0.0 0.164963" rpy="0 0 0"/>
+  <parent link="link_3_1"/>
+  <child link="link_4_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+</joint>
+
+<joint name="Revolute 5" type="continuous">
+  <origin xyz="0.06 0.0 0.05" rpy="0 0 0"/>
+  <parent link="link_4_1"/>
+  <child link="link_5_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="-0.06 0.0 0.01" rpy="0 0 0"/>
+  <parent link="link_5_1"/>
+  <child link="camera_1"/>
+</joint>
+
+</robot>
