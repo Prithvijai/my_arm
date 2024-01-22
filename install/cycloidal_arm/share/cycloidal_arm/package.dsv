@@ -1,0 +1,8 @@
+source;share/cycloidal_arm/hook/cmake_prefix_path.ps1
+source;share/cycloidal_arm/hook/cmake_prefix_path.dsv
+source;share/cycloidal_arm/hook/cmake_prefix_path.sh
+source;share/cycloidal_arm/local_setup.bash
+source;share/cycloidal_arm/local_setup.dsv
+source;share/cycloidal_arm/local_setup.ps1
+source;share/cycloidal_arm/local_setup.sh
+source;share/cycloidal_arm/local_setup.zsh

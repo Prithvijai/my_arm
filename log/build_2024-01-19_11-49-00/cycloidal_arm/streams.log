@@ -1,0 +1,70 @@
+[0.106s] Invoking command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/prithvi-jai/ros2_ws/src/cycloidal_arm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm
+[0.346s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.467s] -- Detecting C compiler ABI info
+[0.548s] -- Detecting C compiler ABI info - done
+[0.554s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.650s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.650s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.846s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.951s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.034s] -- Configured cppcheck include dirs: 
+[1.034s] -- Configured cppcheck exclude dirs and/or files: 
+[1.036s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.039s] -- Added test 'lint_cmake' to check CMake code style
+[1.041s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.048s] -- Added test 'uncrustify' to check C / C++ code style
+[1.048s] -- Configured uncrustify additional arguments: 
+[1.050s] -- Added test 'xmllint' to check XML markup files
+[1.053s] -- Configuring done
+[1.055s] -- Generating done
+[1.055s] -- Build files have been written to: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm
+[1.059s] Invoked command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/prithvi-jai/ros2_ws/src/cycloidal_arm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm
+[1.060s] Invoking command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm -- -j8 -l8
+[1.105s] Invoked command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm -- -j8 -l8
+[1.152s] Invoking command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm
+[1.160s] -- Install configuration: ""
+[1.160s] -- Execute custom install script
+[1.161s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/launch/rsp.launch.py
+[1.171s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/urdf/cycloidal_arm.gazebo
+[1.181s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/urdf/cycloidal_arm.trans
+[1.191s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/urdf/cycloidal_arm.urdf
+[1.201s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/urdf/cycloidal_arm.xacro
+[1.211s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/urdf/materials.xacro
+[1.221s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/base_link.stl
+[1.231s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/camera_1.stl
+[1.241s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/link_1_1.stl
+[1.252s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/link_2_1.stl
+[1.261s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/link_3_1.stl
+[1.271s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/link_4_1.stl
+[1.281s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/meshes/link_5_1.stl
+[1.291s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/controller.launch
+[1.301s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/controller.yaml
+[1.311s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/display.launch
+[1.322s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/gazebo.launch
+[1.332s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/joint_names_cycloidal_arm.yaml
+[1.342s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/config/urdf.rviz
+[1.352s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/ament_index/resource_index/package_run_dependencies/cycloidal_arm
+[1.362s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/ament_index/resource_index/parent_prefix_path/cycloidal_arm
+[1.372s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/environment/ament_prefix_path.sh
+[1.383s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/environment/ament_prefix_path.dsv
+[1.397s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/environment/path.sh
+[1.413s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/environment/path.dsv
+[1.427s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/local_setup.bash
+[1.442s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/local_setup.sh
+[1.451s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/local_setup.zsh
+[1.461s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/local_setup.dsv
+[1.472s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/package.dsv
+[1.482s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/ament_index/resource_index/packages/cycloidal_arm
+[1.492s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/cmake/cycloidal_armConfig.cmake
+[1.501s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/cmake/cycloidal_armConfig-version.cmake
+[1.511s] -- Symlinking: /home/prithvi-jai/ros2_ws/src/cycloidal_arm/install/cycloidal_arm/share/cycloidal_arm/package.xml
+[1.523s] Invoked command in '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm' returned '0': CMAKE_PREFIX_PATH=/home/prithvi-jai/ros2_ws/install/my_package:/home/prithvi-jai/ros2_ws/install/my_first_pkg:/home/prithvi-jai/ros2_ws/install/launch_learn:/home/prithvi-jai/ws_moveit/install/moveit_configs_utils:/home/prithvi-jai/ws_moveit/install/launch_param_builder:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_teleop:/home/prithvi-jai/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/prithvi-jai/ros2_ws/src/cycloidal_arm/build/cycloidal_arm

@@ -1,0 +1,4 @@
+source;share/cycloidal_arm/local_setup.bash
+source;share/cycloidal_arm/local_setup.dsv
+source;share/cycloidal_arm/local_setup.sh
+source;share/cycloidal_arm/local_setup.zsh
