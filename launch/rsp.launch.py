@@ -32,6 +32,13 @@ def generate_launch_description():
         output='screen',
         parameters=[params]
     )
+
+    rviz_view = Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', '/home/prithvi-jai/ros2_ws/src/cycloidal_arm/config/robot_view.rviz'],
+    )
     
     # Launch!
     return LaunchDescription([
@@ -47,7 +54,7 @@ def generate_launch_description():
 
         node_robot_state_publisher,
         
-        
+        rviz_view,
         
         Node(
             package='joint_state_publisher_gui',

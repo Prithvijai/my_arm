@@ -2,8 +2,6 @@
 <robot name="cycloidal_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find cycloidal_arm)/urdf/materials.xacro" />
-<xacro:include filename="$(find cycloidal_arm)/urdf/cycloidal_arm.trans" />
-<xacro:include filename="$(find cycloidal_arm)/urdf/cycloidal_arm.gazebo" />
 
 
 <link name="base_link">
@@ -153,35 +151,35 @@
   </collision>
 </link>
 
-<joint name="Revolute 1" type="continuous">
+<joint name="Revolute_1" type="continuous">
   <origin xyz="0.0 0.0 0.03" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="link_1_1"/>
   <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
-<joint name="Revolute 2" type="continuous">
+<joint name="Revolute_2" type="continuous">
   <origin xyz="0.037148 -0.0 0.11518" rpy="0 0 0"/>
   <parent link="link_1_1"/>
   <child link="link_2_1"/>
   <axis xyz="-1.0 0.0 0.0"/>
 </joint>
 
-<joint name="Revolute 3" type="continuous">
+<joint name="Revolute_3" type="continuous">
   <origin xyz="-0.00281 0.0 0.300964" rpy="0 0 0"/>
   <parent link="link_2_1"/>
   <child link="link_3_1"/>
   <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
-<joint name="Revolute 4" type="continuous">
+<joint name="Revolute_4" type="continuous">
   <origin xyz="-0.04 -0.0 0.164962" rpy="0 0 0"/>
   <parent link="link_3_1"/>
   <child link="link_4_1"/>
   <axis xyz="0.0 0.0 1.0"/>
 </joint>
 
-<joint name="Revolute 5" type="continuous">
+<joint name="Revolute_5" type="continuous">
   <origin xyz="0.06 0.0 0.046" rpy="0 0 0"/>
   <parent link="link_4_1"/>
   <child link="link_5_1"/>
@@ -193,4 +191,7 @@
   <parent link="link_5_1"/>
   <child link="camera_1"/>
 </joint>
+
+<xacro:include filename="$(find cycloidal_arm)/urdf/arm_trans.xacro" />
+<xacro:include filename="$(find cycloidal_arm)/urdf/arm_controller.xacro" />
 </robot>
